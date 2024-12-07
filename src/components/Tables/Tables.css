@@ -1,0 +1,29 @@
+table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+  
+}
+
+thead th, tbody td {
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+}
+
+
+td{
+    button{
+        letter-spacing: 0px !important;
+    }
+}
+tbody tr{
+    border-bottom: 1px solid #ddd;
+}
+
+@media (max-width:768px) {
+.table-container{
+    overflow-x: scroll;
+}    
+}
